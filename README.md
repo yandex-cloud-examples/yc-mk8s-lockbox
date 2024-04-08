@@ -1,5 +1,3 @@
-# Название сценария
+# Синхронизация секретов кластера Yandex Managed Service for Kubernetes® с Yandex Lockbox
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+С помощью инструмента [External Secrets Operator](https://external-secrets.io/latest/provider/yandex-lockbox) вы можете настроить синхронизацию секретов [Lockbox](https://yandex.cloud/ru/docs/lockbox) с секретами кластера [Managed Service for Kubernetes®](https://yandex.cloud/ru/docs/managed-kubernetes). Подготовка инфраструктуры для Managed Service for Kubernetes® и Lockbox через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/ru/docs/managed-kubernetes/tutorials/kubernetes-lockbox-secrets), необходимый для настройки конфигурационный файл [k8s-cluster-and-lockbox.tf](k8s-cluster-and-lockbox.tf) расположен в этом репозитории.
