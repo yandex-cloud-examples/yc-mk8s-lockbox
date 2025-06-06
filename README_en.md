@@ -1,0 +1,3 @@
+# Synchronizing secrets stored in a Yandex Managed Service for Kubernetes® cluster with Yandex Lockbox
+
+[External Secrets Operator](https://external-secrets.io/latest/provider/yandex-lockbox) enables you to set up syncing of [Lockbox](https://yandex.cloud/docs/lockbox) secrets with [Managed Service for Kubernetes®](https://yandex.cloud/docs/managed-kubernetes) cluster ones. See this [tutorial](https://yandex.cloud/docs/managed-kubernetes/tutorials/kubernetes-lockbox-secrets) to learn how to prepare the infrastructure for Managed Service for Kubernetes® and Lockbox using Terraform. This repository contains the configuration file you will need: [k8s-cluster-and-lockbox.tf](k8s-cluster-and-lockbox.tf).
